@@ -39,14 +39,6 @@
                   "rebase":false,
                   "merge":false
                }
-            },
-            {
-               "from":"develop",
-               "to":"feature_teads_showcase_mobile",
-               "automatic":{
-                  "rebase":true,
-                  "merge":true
-               }
             }
          ]
       },
