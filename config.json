@@ -228,7 +228,7 @@
          ]
       },
       {
-         "url":"https://github.com/ebuzzing/Proxy.git",
+         "url":"https://github.com/ebuzzing/service-proxy.git",
          "rebase":[
             {
                "from":"master",
