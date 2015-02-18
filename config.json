@@ -308,6 +308,51 @@
                }
             }
          ]
+      },
+      {
+         "url":"https://github.com/ebuzzing/TeadsSDKDev-iOS",
+         "rebase":[
+            {
+               "from":"master",
+               "to":"hotfix.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"develop",
+               "to":"feature.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"master",
+               "to":"develop",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"master",
+               "to":"release.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"master",
+               "to":"offline",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            }
+         ]
       }
    ]
 }
