@@ -263,6 +263,51 @@
                }
             }
          ]
+      },
+      {
+         "url":"https://github.com/ebuzzing/lib-canvas-player.git",
+         "rebase":[
+            {
+               "from":"master",
+               "to":"hotfix.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"develop",
+               "to":"feature.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"master",
+               "to":"develop",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"master",
+               "to":"release.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"master",
+               "to":"gh-pages",
+               "automatic":{
+                  "rebase":true,
+                  "merge":true
+               }
+            }
+         ]
       }
    ]
 }
