@@ -13,7 +13,7 @@ When no conflict, you can rebase / merge your branch with on click, and they wil
 
 When conflict, you have to rebase manually the branch as usual
 
-Features
+Awesome Features
 =======
 
 - Plug to GitHubApi
