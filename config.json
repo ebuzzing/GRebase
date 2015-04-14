@@ -276,7 +276,7 @@
                }
             },
             {
-               "from":"develop",
+               "from":"master",
                "to":"feature.*",
                "automatic":{
                   "rebase":false,
