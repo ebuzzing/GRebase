@@ -339,6 +339,43 @@
          ]
       },
       {
+         "url":"https://github.com/ebuzzing/TeadsSDKDev-android",
+         "rebase":[
+            {
+               "from":"master",
+               "to":"hotfix.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"develop",
+               "to":"feature.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"master",
+               "to":"develop",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"master",
+               "to":"offline",
+               "automatic":{
+                  "rebase":false,
+                  "merge":true
+               }
+            }
+         ]
+      },
+      {
          "url":"https://github.com/teads/TeadsSDK-iOS",
          "rebase":[
             {
@@ -368,7 +405,65 @@
          ]
       },
       {
+         "url":"https://github.com/teads/TeadsSDK-android",
+         "rebase":[
+            {
+               "from":"master",
+               "to":"hotfix.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"develop",
+               "to":"feature.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"master",
+               "to":"develop",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            }
+         ]
+      },
+      {
          "url":"https://github.com/ebuzzing/TeadsSDKShowcase-ios",
+         "rebase":[
+            {
+               "from":"master",
+               "to":"hotfix.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"develop",
+               "to":"feature.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"master",
+               "to":"develop",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            }
+         ]
+      },
+      {
+         "url":"https://github.com/ebuzzing/TeadsSDKShowcase-android",
          "rebase":[
             {
                "from":"master",
