@@ -330,7 +330,28 @@
             },
             {
                "from":"master",
-               "to":"release.*",
+               "to":"offline",
+               "automatic":{
+                  "rebase":false,
+                  "merge":true
+               }
+            }
+         ]
+      },
+      {
+         "url":"https://github.com/teads/TeadsSDK-iOS",
+         "rebase":[
+            {
+               "from":"master",
+               "to":"hotfix.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"develop",
+               "to":"feature.*",
                "automatic":{
                   "rebase":false,
                   "merge":false
@@ -338,10 +359,126 @@
             },
             {
                "from":"master",
-               "to":"offline",
+               "to":"develop",
                "automatic":{
                   "rebase":false,
-                  "merge":true
+                  "merge":false
+               }
+            }
+         ]
+      },
+      {
+         "url":"https://github.com/ebuzzing/TeadsSDKShowcase-ios",
+         "rebase":[
+            {
+               "from":"master",
+               "to":"hotfix.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"develop",
+               "to":"feature.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"master",
+               "to":"develop",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            }
+         ]
+      },
+      {
+         "url":"https://github.com/ebuzzing/TeadsSDKShowcase-ios",
+         "rebase":[
+            {
+               "from":"master",
+               "to":"hotfix.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"develop",
+               "to":"feature.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"master",
+               "to":"develop",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            }
+         ]
+      },
+      {
+         "url":"https://github.com/ebuzzing/TeadsSDKDev-cordova",
+         "rebase":[
+            {
+               "from":"master",
+               "to":"hotfix.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"develop",
+               "to":"feature.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"master",
+               "to":"develop",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            }
+         ]
+      },
+      {
+         "url":"https://github.com/teads/TeadsSDK-cordova",
+         "rebase":[
+            {
+               "from":"master",
+               "to":"hotfix.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"develop",
+               "to":"feature.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"master",
+               "to":"develop",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
                }
             }
          ]
