@@ -314,6 +314,14 @@
             },
             {
                "from":"develop",
+               "to":"^fix.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"develop",
                "to":"feature.*",
                "automatic":{
                   "rebase":false,
@@ -344,6 +352,14 @@
             {
                "from":"master",
                "to":"hotfix.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"develop",
+               "to":"^fix.*",
                "automatic":{
                   "rebase":false,
                   "merge":false
@@ -388,6 +404,14 @@
             },
             {
                "from":"develop",
+               "to":"^fix.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"develop",
                "to":"feature.*",
                "automatic":{
                   "rebase":false,
@@ -424,6 +448,14 @@
                }
             },
             {
+               "from":"develop",
+               "to":"^fix.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
                "from":"master",
                "to":"develop",
                "automatic":{
@@ -439,6 +471,14 @@
             {
                "from":"master",
                "to":"hotfix.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"develop",
+               "to":"^fix.*",
                "automatic":{
                   "rebase":false,
                   "merge":false
@@ -475,6 +515,14 @@
             },
             {
                "from":"develop",
+               "to":"^fix.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"develop",
                "to":"feature.*",
                "automatic":{
                   "rebase":false,
@@ -504,6 +552,14 @@
             },
             {
                "from":"develop",
+               "to":"^fix.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"develop",
                "to":"feature.*",
                "automatic":{
                   "rebase":false,
@@ -526,6 +582,14 @@
             {
                "from":"master",
                "to":"hotfix.*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"develop",
+               "to":"^fix.*",
                "automatic":{
                   "rebase":false,
                   "merge":false
