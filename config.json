@@ -276,7 +276,7 @@
                }
             },
             {
-               "from":"develop",
+               "from":"^develop$",
                "to":"^fix.*",
                "automatic":{
                   "rebase":false,
@@ -284,7 +284,7 @@
                }
             },
             {
-               "from":"develop",
+               "from":"^develop$",
                "to":"feature.*",
                "automatic":{
                   "rebase":false,
@@ -292,7 +292,7 @@
                }
             },
             {
-               "from":"develop",
+               "from":"^develop$",
                "to":"develop_media_framework_V2",
                "automatic":{
                   "rebase":false,
@@ -309,7 +309,7 @@
             },
             {
                "from":"master",
-               "to":"develop",
+               "to":"^develop$",
                "automatic":{
                   "rebase":false,
                   "merge":false
