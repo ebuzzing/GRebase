@@ -292,6 +292,22 @@
                }
             },
             {
+               "from":"develop",
+               "to":"develop_media_framework_V2",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            },
+            {
+               "from":"develop_media_framework_V2",
+               "to":"standalone_media-framework-V2",
+               "automatic":{
+                  "rebase":false,
+                  "merge":true
+               }
+            },
+            {
                "from":"master",
                "to":"develop",
                "automatic":{
