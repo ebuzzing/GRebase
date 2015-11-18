@@ -265,6 +265,45 @@
          ]
       },
       {
+         "url":"https://github.com/ebuzzing/tests-integration-api-core.git",
+         "rebase":[
+            {
+               "from":"master",
+               "to":"^(?!master$).*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            }
+         ]
+      },
+      {
+         "url":"https://github.com/ebuzzing/service-api-core.git",
+         "rebase":[
+            {
+               "from":"master",
+               "to":"^(?!master$).*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            }
+         ]
+      },
+      {
+         "url":"https://github.com/ebuzzing/lib-spring-boot-starter-service-api.git",
+         "rebase":[
+            {
+               "from":"master",
+               "to":"^(?!master$).*",
+               "automatic":{
+                  "rebase":false,
+                  "merge":false
+               }
+            }
+         ]
+      },
+      {
          "url":"https://github.com/ebuzzing/TeadsSDKDev-iOS",
          "rebase":[
             {
