@@ -641,6 +641,14 @@
                   "rebase":false,
                   "merge":false
                }
+            },
+            {
+               "from":"master",
+               "to":"^release.*",
+               "automatic":{
+                  "rebase":true,
+                  "merge":true
+               }
             }
          ]
       },
