@@ -397,8 +397,8 @@
                }
             },
             {
-               "from":"master",
-               "to":"offline",
+               "from":"develop",
+               "to":"standalone",
                "automatic":{
                   "rebase":false,
                   "merge":true
