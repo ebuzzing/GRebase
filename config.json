@@ -345,15 +345,7 @@
             },
             {
                "from":"develop",
-               "to":"develop_media_framework_V2",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"develop_media_framework_V2",
-               "to":"standalone_media-framework-V2",
+               "to":"standalone",
                "automatic":{
                   "rebase":false,
                   "merge":true
@@ -365,14 +357,6 @@
                "automatic":{
                   "rebase":false,
                   "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":"offline",
-               "automatic":{
-                  "rebase":false,
-                  "merge":true
                }
             }
          ]
