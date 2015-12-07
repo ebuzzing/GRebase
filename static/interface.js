@@ -47,7 +47,7 @@ var updateUI = function(data) {
 
 var addConnectButton = function(project, id) {
     if ($(project).children(".btn-success").length === 0) {
-        $(project).append("<button type='button' class='btn btn-success'>Connect you to start the process</button>");
+        $(project).append("<button type='button' class='btn btn-success'>Log in to start the process</button>");
         $(project).children("button").click(function() {
             window.open("/getToken/" + id, "", "width=1050, height=700, scrollbars=1");
         });
@@ -98,10 +98,10 @@ var getProjectContainer = function(project) {
             "<span class='glyphicon glyphicon-new-window' data-toggle='tooltip' data-placement='right' title='open repository'></span>" +
             "<span class='glyphicon glyphicon-refresh' data-toggle='tooltip' data-placement='right' title='refresh project&#39;s branches'></span></h2>" +
             "<div class='table-responsive'><div class='danger'></div><div class='warning'></div><div class='success'></div><div class='default'></div></div></div>");
-        
+
         $(".nav-sidebar").append("<li><div class='checkbox'><label><input type='checkbox' " + (hidden ? '' : 'checked') + "><a href='#[PN]'>[PN]</a></label></div></li>".replace(/\[PN\]/ig, project.name));
         $(".nav-sidebar input").last().on("change", onCheck)
-        
+
         container = document.getElementById(project.name);
         var openRepo = container.getElementsByClassName('glyphicon-new-window')[0];
         $(openRepo).click(function() {
