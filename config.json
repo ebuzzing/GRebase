@@ -350,6 +350,13 @@
                   "rebase":false,
                   "merge":true
                }
+            },{
+               "from":"develop",
+               "to":"debug",
+               "automatic":{
+                  "rebase":false,
+                  "merge":true
+               }
             },
             {
                "from":"master",
@@ -399,6 +406,14 @@
             {
                "from":"develop",
                "to":"standalone",
+               "automatic":{
+                  "rebase":false,
+                  "merge":true
+               }
+            },
+            {
+               "from":"develop",
+               "to":"debug",
                "automatic":{
                   "rebase":false,
                   "merge":true
