@@ -658,7 +658,7 @@
                "from":"master",
                "to":"^release.*",
                "automatic":{
-                  "rebase":true,
+                  "rebase":false,
                   "merge":true
                }
             }
@@ -679,7 +679,7 @@
                "from":"master",
                "to":"release.*",
                "automatic":{
-                  "rebase":true,
+                  "rebase":false,
                   "merge":true
                }
             }
