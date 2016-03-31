@@ -659,7 +659,7 @@
                "to":"^release.*",
                "automatic":{
                   "rebase":false,
-                  "merge":true
+                  "merge":false
                }
             }
          ]
