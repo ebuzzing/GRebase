@@ -686,19 +686,6 @@
          ]
       },
       {
-         "url":"https://github.com/ebuzzing/service-manager.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"(feat|fix|improv).*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            }
-         ]
-      },
-      {
          "url":"https://github.com/ebuzzing/lib-front-shared-workflow.git",
          "rebase":[
             {
