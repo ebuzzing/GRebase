@@ -6,321 +6,10 @@
    },
    "repository":[
       {
-         "url":"https://github.com/ebuzzing/EbzFormats.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"hotfix.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"develop",
-               "to":"feature.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":"develop",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":"release.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/EbzPlatform.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"hotfix.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"develop",
-               "to":"feature.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":"develop",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":"release.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/EbzAdServerFront.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"hotfix.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"develop",
-               "to":"feature.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":"develop",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":"release.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/EbuzzingManager.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"hotfix.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"develop",
-               "to":"feature.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":"develop",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":"release.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/DemoBoxBack.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"hotfix.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"develop",
-               "to":"feature.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":"develop",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":"release.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/DemoBoxFront.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"hotfix.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"develop",
-               "to":"feature.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":"develop",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":"release.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/service-proxy.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"hotfix.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"develop",
-               "to":"feature.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":"develop",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":"release.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/tests-integration-api-core.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"^(?!master$).*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/service-api-core.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"^(?!master$).*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/lib-spring-boot-starter-service-api.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"^(?!master$).*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/service-api.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"^(?!master$).*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            }
-         ]
-      },
-      {
          "url":"https://github.com/ebuzzing/TeadsSDKDev-iOS",
          "rebase":[
             {
-               "from":"master",
+               "from":"^master$",
                "to":"hotfix.*",
                "automatic":{
                   "rebase":false,
@@ -359,7 +48,7 @@
                }
             },
             {
-               "from":"master",
+               "from":"^master$",
                "to":"^develop$",
                "automatic":{
                   "rebase":false,
@@ -372,7 +61,7 @@
          "url":"https://github.com/ebuzzing/TeadsSDKDev-android",
          "rebase":[
             {
-               "from":"master",
+               "from":"^master$",
                "to":"hotfix.*",
                "automatic":{
                   "rebase":false,
@@ -396,7 +85,7 @@
                }
             },
             {
-               "from":"master",
+               "from":"^master$",
                "to":"develop",
                "automatic":{
                   "rebase":false,
@@ -425,7 +114,7 @@
          "url":"https://github.com/teads/TeadsSDK-iOS",
          "rebase":[
             {
-               "from":"master",
+               "from":"^master$",
                "to":"hotfix.*",
                "automatic":{
                   "rebase":false,
@@ -449,7 +138,7 @@
                }
             },
             {
-               "from":"master",
+               "from":"^master$",
                "to":"develop",
                "automatic":{
                   "rebase":false,
@@ -462,7 +151,7 @@
          "url":"https://github.com/teads/TeadsSDK-android",
          "rebase":[
             {
-               "from":"master",
+               "from":"^master$",
                "to":"hotfix.*",
                "automatic":{
                   "rebase":false,
@@ -486,7 +175,7 @@
                }
             },
             {
-               "from":"master",
+               "from":"^master$",
                "to":"develop",
                "automatic":{
                   "rebase":false,
@@ -499,7 +188,7 @@
          "url":"https://github.com/ebuzzing/TeadsSDKShowcase-ios",
          "rebase":[
             {
-               "from":"master",
+               "from":"^master$",
                "to":"hotfix.*",
                "automatic":{
                   "rebase":false,
@@ -523,7 +212,7 @@
                }
             },
             {
-               "from":"master",
+               "from":"^master$",
                "to":"develop",
                "automatic":{
                   "rebase":false,
@@ -536,7 +225,7 @@
          "url":"https://github.com/ebuzzing/TeadsSDKShowcase-android",
          "rebase":[
             {
-               "from":"master",
+               "from":"^master$",
                "to":"hotfix.*",
                "automatic":{
                   "rebase":false,
@@ -560,7 +249,7 @@
                }
             },
             {
-               "from":"master",
+               "from":"^master$",
                "to":"develop",
                "automatic":{
                   "rebase":false,
@@ -573,7 +262,7 @@
          "url":"https://github.com/ebuzzing/TeadsSDKDev-cordova",
          "rebase":[
             {
-               "from":"master",
+               "from":"^master$",
                "to":"hotfix.*",
                "automatic":{
                   "rebase":false,
@@ -597,7 +286,7 @@
                }
             },
             {
-               "from":"master",
+               "from":"^master$",
                "to":"develop",
                "automatic":{
                   "rebase":false,
@@ -610,7 +299,7 @@
          "url":"https://github.com/teads/TeadsSDK-cordova",
          "rebase":[
             {
-               "from":"master",
+               "from":"^master$",
                "to":"hotfix.*",
                "automatic":{
                   "rebase":false,
@@ -634,7 +323,7 @@
                }
             },
             {
-               "from":"master",
+               "from":"^master$",
                "to":"develop",
                "automatic":{
                   "rebase":false,
@@ -647,19 +336,19 @@
          "url":"https://github.com/ebuzzing/lib-format-canvas-player.git",
          "rebase":[
             {
-               "from":"master",
-               "to":"^feat.*",
+               "from":"^master$",
+               "to":"^(?!master).*",
                "automatic":{
                   "rebase":false,
                   "merge":false
                }
             },
             {
-               "from":"master",
-               "to":"^release.*",
+               "from":"^master$",
+               "to":".*grebase.*",
                "automatic":{
-                  "rebase":false,
-                  "merge":false
+                  "rebase":true,
+                  "merge":true
                }
             }
          ]
@@ -668,162 +357,187 @@
          "url":"https://github.com/ebuzzing/service-format-player.git",
          "rebase":[
             {
-               "from":"master",
-               "to":"feat.*",
+               "from":"^master$",
+               "to":"^(?!master).*",
                "automatic":{
                   "rebase":false,
                   "merge":false
                }
             },
             {
-               "from":"master",
-               "to":"release.*",
+               "from":"^master$",
+               "to":".*grebase.*",
                "automatic":{
-                  "rebase":false,
+                  "rebase":true,
                   "merge":true
                }
             }
          ]
       },
       {
-         "url":"https://github.com/ebuzzing/lib-front-shared-workflow.git",
+         "url":"https://github.com/ebuzzing/service-format-framework.git",
          "rebase":[
             {
-               "from":"master",
-               "to":"(feat|fix|improv).*",
+               "from":"^master$",
+               "to":"^(?!master).*",
                "automatic":{
                   "rebase":false,
                   "merge":false
+               }
+            },
+            {
+               "from":"^master$",
+               "to":".*grebase.*",
+               "automatic":{
+                  "rebase":true,
+                  "merge":true
                }
             }
          ]
       },
       {
-         "url":"https://github.com/ebuzzing/lib-front-greads.git",
+         "url":"https://github.com/ebuzzing/lib-format-tracker.git",
          "rebase":[
             {
-               "from":"master",
-               "to":"(feat|fix|improv).*",
+               "from":"^master$",
+               "to":"^(?!master).*",
                "automatic":{
                   "rebase":false,
                   "merge":false
+               }
+            },
+            {
+               "from":"^master$",
+               "to":".*grebase.*",
+               "automatic":{
+                  "rebase":true,
+                  "merge":true
                }
             }
          ]
       },
       {
-         "url":"https://github.com/ebuzzing/lib-front-utils.git",
+         "url":"https://github.com/ebuzzing/lib-format-vast.git",
          "rebase":[
             {
-               "from":"master",
-               "to":"(feat|fix|improv).*",
+               "from":"^master$",
+               "to":"^(?!master).*",
                "automatic":{
                   "rebase":false,
                   "merge":false
+               }
+            },
+            {
+               "from":"^master$",
+               "to":".*grebase.*",
+               "automatic":{
+                  "rebase":true,
+                  "merge":true
                }
             }
          ]
       },
       {
-         "url":"https://github.com/ebuzzing/lib-front-exceptions.git",
+         "url":"https://github.com/ebuzzing/lib-format-vpaid.git",
          "rebase":[
             {
-               "from":"master",
-               "to":"(feat|fix|improv).*",
+               "from":"^master$",
+               "to":"^(?!master).*",
                "automatic":{
                   "rebase":false,
                   "merge":false
+               }
+            },
+            {
+               "from":"^master$",
+               "to":".*grebase.*",
+               "automatic":{
+                  "rebase":true,
+                  "merge":true
                }
             }
          ]
       },
       {
-         "url":"https://github.com/ebuzzing/lib-front-angular-filters.git",
+         "url":"https://github.com/ebuzzing/lib-format-vpaid-ui.git",
          "rebase":[
             {
-               "from":"master",
-               "to":"(feat|fix|improv).*",
+               "from":"^master$",
+               "to":"^(?!master).*",
                "automatic":{
                   "rebase":false,
                   "merge":false
+               }
+            },
+            {
+               "from":"^master$",
+               "to":".*grebase.*",
+               "automatic":{
+                  "rebase":true,
+                  "merge":true
                }
             }
          ]
       },
       {
-         "url":"https://github.com/ebuzzing/lib-front-helpers.git",
+         "url":"https://github.com/ebuzzing/lib-format-vpaid-video.git",
          "rebase":[
             {
-               "from":"master",
-               "to":"(feat|fix|improv).*",
+               "from":"^master$",
+               "to":"^(?!master).*",
                "automatic":{
                   "rebase":false,
                   "merge":false
+               }
+            },
+            {
+               "from":"^master$",
+               "to":".*grebase.*",
+               "automatic":{
+                  "rebase":true,
+                  "merge":true
                }
             }
          ]
       },
       {
-         "url":"https://github.com/ebuzzing/lib-front-validators.git",
+         "url":"https://github.com/ebuzzing/lib-format-video.git",
          "rebase":[
             {
-               "from":"master",
-               "to":"(feat|fix|improv).*",
+               "from":"^master$",
+               "to":"^(?!master).*",
                "automatic":{
                   "rebase":false,
                   "merge":false
+               }
+            },
+            {
+               "from":"^master$",
+               "to":".*grebase.*",
+               "automatic":{
+                  "rebase":true,
+                  "merge":true
                }
             }
          ]
       },
       {
-         "url":"https://github.com/ebuzzing/lib-front-angular-ui.git",
+         "url":"https://github.com/ebuzzing/lib-format-shared-workflow.git",
          "rebase":[
             {
-               "from":"master",
-               "to":"(feat|fix|improv).*",
+               "from":"^master$",
+               "to":"^(?!master).*",
                "automatic":{
                   "rebase":false,
                   "merge":false
                }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/lib-front-models.git",
-         "rebase":[
+            },
             {
-               "from":"master",
-               "to":"(feat|fix|improv).*",
+               "from":"^master$",
+               "to":".*grebase.*",
                "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/lib-front-accounts.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"(feat|fix|improv).*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/lib-front-vpaid-studio.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"(feat|fix|improv).*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
+                  "rebase":true,
+                  "merge":true
                }
             }
          ]
