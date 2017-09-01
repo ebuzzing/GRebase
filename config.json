@@ -111,80 +111,6 @@
          ]
       },
       {
-         "url":"https://github.com/teads/TeadsSDK-iOS",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"hotfix.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"develop",
-               "to":"^fix.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"develop",
-               "to":"feature.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":"develop",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/teads/TeadsSDK-android",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"hotfix.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"develop",
-               "to":"feature.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"develop",
-               "to":"^fix.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":"develop",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            }
-         ]
-      },
-      {
          "url":"https://github.com/ebuzzing/TeadsSDKShowcase-ios",
          "rebase":[
             {
@@ -231,109 +157,11 @@
                   "rebase":false,
                   "merge":false
                }
-            },
-            {
-               "from":"develop",
-               "to":"^fix.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"develop",
-               "to":"feature.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":"develop",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
             }
          ]
       },
       {
-         "url":"https://github.com/ebuzzing/TeadsSDKDev-cordova",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"hotfix.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"develop",
-               "to":"^fix.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"develop",
-               "to":"feature.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":"develop",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/teads/TeadsSDK-cordova",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"hotfix.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"develop",
-               "to":"^fix.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"develop",
-               "to":"feature.*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":"develop",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/lib-format-canvas-player.git",
+         "url":"https://github.com/ebuzzing/service-format-ios",
          "rebase":[
             {
                "from":"master",
@@ -347,14 +175,14 @@
                "from":"master",
                "to":".*grebase.*",
                "automatic":{
-                  "rebase":true,
+                  "rebase":false,
                   "merge":true
                }
             }
          ]
       },
       {
-         "url":"https://github.com/ebuzzing/service-format-player.git",
+         "url":"https://github.com/ebuzzing/service-format-android",
          "rebase":[
             {
                "from":"master",
@@ -368,175 +196,20 @@
                "from":"master",
                "to":".*grebase.*",
                "automatic":{
-                  "rebase":true,
+                  "rebase":false,
                   "merge":true
                }
             }
          ]
       },
       {
-         "url":"https://github.com/ebuzzing/service-format-framework.git",
+         "url":"https://github.com/ebuzzing/service-web-formats",
          "rebase":[
             {
                "from":"master",
-               "to":"^(?!master).*",
+               "to":"^(?!.*(master|nogrebase)).*$",
                "automatic":{
                   "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":".*grebase.*",
-               "automatic":{
-                  "rebase":true,
-                  "merge":true
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/lib-format-tracker.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"^(?!master).*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":".*grebase.*",
-               "automatic":{
-                  "rebase":true,
-                  "merge":true
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/lib-format-vast.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"^(?!master).*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":".*grebase.*",
-               "automatic":{
-                  "rebase":true,
-                  "merge":true
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/lib-format-vpaid.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"^(?!master).*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":".*grebase.*",
-               "automatic":{
-                  "rebase":true,
-                  "merge":true
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/lib-format-vpaid-ui.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"^(?!master).*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":".*grebase.*",
-               "automatic":{
-                  "rebase":true,
-                  "merge":true
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/lib-format-vpaid-video.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"^(?!master).*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":".*grebase.*",
-               "automatic":{
-                  "rebase":true,
-                  "merge":true
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/lib-format-video.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"^(?!master).*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":".*grebase.*",
-               "automatic":{
-                  "rebase":true,
-                  "merge":true
-               }
-            }
-         ]
-      },
-      {
-         "url":"https://github.com/ebuzzing/lib-format-shared-workflow.git",
-         "rebase":[
-            {
-               "from":"master",
-               "to":"^(?!master).*",
-               "automatic":{
-                  "rebase":false,
-                  "merge":false
-               }
-            },
-            {
-               "from":"master",
-               "to":".*grebase.*",
-               "automatic":{
-                  "rebase":true,
                   "merge":true
                }
             }
